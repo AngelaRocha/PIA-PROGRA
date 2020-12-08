@@ -48,8 +48,8 @@ def Main():
         if args.encriptar:
             frase = args.encriptar
             caesarsCipher.Encriptar(frase)
-        if args.desencriptaar:
-            frase = args.desencriptaar
+        if args.desencriptar:
+            frase = args.desencriptar
             caesarsCipher.Desencriptar(frase)
 
     if args.opt.upper() == 'NMAP':
