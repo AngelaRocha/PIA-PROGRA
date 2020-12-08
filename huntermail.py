@@ -34,7 +34,7 @@ if __name__ == '__main__':
         Main()
     except ImportError as error:
         import os
-        print("Error on Packages","Installing Packages")
+        print("Error on Packages"," Installing Packages")
         os.system('pip install -r requierements.txt')
         print("Packages Installed","ReRun")
         exit()

@@ -43,7 +43,7 @@ def Desencriptar(frase):
 
 if __name__ == "__main__":
     try:
-        print("Menú\n1) Encriptar\n2) Desencriptar\n3) Salir")
+        print("Menú\n1) Encriptar\n2) Desencriptar \n3) Salir")
         x = int(input("Opción: "))
         if x == 3:
             exit()

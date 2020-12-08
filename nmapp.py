@@ -34,6 +34,6 @@ if __name__ == '__main__':
         logging.info('Modulo de Nmap')
         os.system('pip install python-nmap')
         logging.error("No se tiene instalado el modulo nmap")
-        print('Installing nmap...')
+        print('Installing nmap ...')
         print('Ejecuta de nuevo tu script...')
         exit()

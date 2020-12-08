@@ -74,7 +74,7 @@ if __name__ == '__main__':
         import PSExce
         Main()
     except ImportError:
-        logging.error('No se tienen instalados todos los modulos.')
+        logging.error('No se tienen instalados todos los modulos. ')
         import os
         os.system('pip install -r requirements.txt')
         print("Módulos Instalados...","Ejecuta de nuevo")

@@ -2,7 +2,6 @@ import subprocess
 import os
 import argparse
 
-
 def getVTReport(APIkey, target, result, premium):
     path = os.path.dirname(os.path.abspath(__file__))
     command = f'{path}\\VTReport.ps1 -apikey "{APIkey}" -target "{target}" -result "{result}" -premium "{premium}"'

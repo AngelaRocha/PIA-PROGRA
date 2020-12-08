@@ -44,7 +44,7 @@ foreach($file in $files){
 $Results | Out-File $result -Encoding ascii
 
 <#
-.Synopsis
+.Synopsis 
     Obtiene reportes de VirusTotal.
 
 .DESCRIPTION
