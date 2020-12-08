@@ -1,5 +1,3 @@
-import urllib.request,io
-from bs4 import BeautifulSoup
 from PIL import Image, ImageFilter
 from PIL.ExifTags import TAGS, GPSTAGS
 import os
@@ -67,10 +65,6 @@ if __name__ == '__main__':
     try:
         from PIL.ExifTags import TAGS, GPSTAGS
         from PIL import Image, ImageFilter
-        import os
-        from bs4 import BeautifulSoup
-        import requests
-        import urllib.request,io
         import argparse
         Main()
     except ImportError:

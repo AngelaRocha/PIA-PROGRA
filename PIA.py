@@ -18,10 +18,8 @@ def Main():
                         a analizar.')
     parser.add_argument('-fi', '--fin',type=int, help = 'Ultimo puerto a \
                         analizar.')
-    parser.add_argument('-en', '--encriptar', help = 'Ingresar ip para escaneo \
-                        con nmap.')
-    parser.add_argument('-de', '--desencriptaar', help = 'Primer puerto a \
-                        analizar.')
+    parser.add_argument('-en', '--encriptar', help = 'Frase para encriptar')
+    parser.add_argument('-de', '--desencriptar', help = 'Frase para desencriptar')
     parser.add_argument('-p', '--path', help = 'Ingresar direccion del path \
                         con las imagenes.')
     parser.add_argument('-t', '--target', help = 'Ingresar direccion absoluta\
@@ -58,7 +56,7 @@ def Main():
         ip = args.ip
         inicio = args.inicio
         fin = args.fin
-        nmaPia.Escaneo(ip,inicio,fin)
+        nmapp.Escaneo(ip,inicio,fin)
 
     if args.opt.upper() == 'HUNTER':
         api = args.api
